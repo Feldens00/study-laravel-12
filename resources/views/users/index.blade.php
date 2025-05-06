@@ -3,7 +3,8 @@
 
 @section('content')
     <div class="container">
-        <h1>Users</h1>
+        <h1 class="title">Users</h1>
+        <img src="{{ Vite::asset('resources/images/php-img.webp') }}" alt="PHP" style="width: 200px; height: auto;">
         <table class="table table-bordered">
             <thead>
                 <tr>
